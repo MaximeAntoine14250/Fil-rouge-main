@@ -1,196 +1,201 @@
 body {
-  color: white;
-  background : #041821;
-  margin: 1em 0.5em;
-  padding: 0;
+  color: white; /* Définit la couleur du texte en blanc */
+  background: #041821; /* Définit la couleur de fond de la page en bleu foncé */
+  margin: 1em 0.5em; /* Applique une marge externe de 1em en haut/bas et 0.5em à gauche/droite */
+  padding: 0; /* Supprime tout espacement interne */
 }
 
 header {
-  color: #ffffff;
-  background :  #041821;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #808080;
-  padding: 1.5em 0;
+  color: #ffffff; /* Définit la couleur du texte du header en blanc */
+  background: #041821; /* Définit la couleur de fond du header en bleu foncé */
+  display: flex; /* Aligne les éléments sur une ligne */
+  justify-content: space-between; /* Applique le même espace entre les éléments */
+  align-items: center; /* Aligne verticalement les éléments au centre */
+  border-bottom: 1px solid #808080; /* Ajoute une bordure grise en bas du header */
+  padding: 1.5em 0; /* Applique un padding interne vertical de 1.5em */
 }
 
 header h1 {
-  font-size: 1.5em;
-  font-weight: lighter;
+  font-size: 1.5em; /* Définit la taille de la police du titre h1 à 1.5em */
+  font-weight: lighter; /* Définit un faible nieau de gras surla police pour le titre */
 }
 
 header h1 span {
-  color: #1bd79e;
+  color: #1bd79e; /* Définit la couleur du texte dans l'élément <span> à vert clair */
 }
 
 header nav span {
-  margin: 1em 0.5em;
+  margin: 1em 0.5em; /* Ajoute des marges externes autour des éléments <span> du menu de navigation */
 }
 
-main  {
-  padding-top: 3em;
-  width: 80%;
-  margin: auto;
+main {
+  padding-top: 3em; /* Ajoute un padding en haut de 3em pour espacer le contenu du haut */
+  width: 80%; /* Définit la largeur de l'élément main à 80% de l'écran */
+  margin: auto; /* Centre horizontalement l'élément main */
 }
 
 main h2 {
-  font-size: 4em;
+  font-size: 4em; /* Définit la taille des titres <h2> à 4em */
 }
 
 main h2 span {
-  color: #1bd79e;
+  color: #1bd79e; /* Applique la couleur vert clair aux éléments <span> dans <h2> */
 }
 
 main p {
-  color: #e5e5e5;
-  width: 80%;
-  margin: 2em 0px;
-  font-weight: lighter;
-  font-size: auto;
-  margin-right: 40%;
+  color: #e5e5e5; /* Définit la couleur du texte en gris clair */
+  width: 80%; /* Définit la largeur du paragraphe à 80% */
+  margin: 2em 0px; /* Ajoute une marge externe de 2em en haut/bas, sans marge latérale */
+  font-weight: lighter;/* Définit un faible nieau de gras surla police */
+  font-size: auto; /* Laisse la taille de police à la valeur par défaut */
+  margin-right: 40%; /* Ajoute une marge à droite de 40% */
 }
 
 main nav {
-  text-align: center;
-  margin-bottom: 2em;
+  text-align: center; /* Centre le contenu de la balise nav */
+  margin-bottom: 2em; /* Ajoute une marge en bas de 2em */
 }
 
 main nav button {
-  background-color:#041821 ;
-  color: #ffffff;
-  border: none;
-  letter-spacing: 0.25em;
-  font-weight: lighter;
-  font-size: 1em;
-  padding: 0.5em;
-  text-align: center;
+  background-color: #041821; /* Applique un fond bleu foncé aux boutons */
+  color: #ffffff; /* Définit la couleur du texte des boutons en blanc */
+  border: none; /* Supprime les bordures des boutons */
+  letter-spacing: 0.25em; /* Ajoute un espacement entre les lettres */
+  font-weight: lighter; /* Définit un faible nieau de gras surla police */
+  font-size: 1em; /* Définit la taille de la police des boutons à 1em */
+  padding: 0.5em; /* Ajoute du padding interne aux boutons */
+  text-align: center; /* Centre le texte dans les boutons */
 }
 
 main nav button span {
-  background-color:#1bd79e ;
-  color: #ffffff;
-  
+  background-color: #1bd79e; /* Applique un fond vert clair aux éléments <span> dans les boutons */
+  color: #ffffff; /* Définit la couleur du texte à blanc */
+  padding: 0.5em;
 }
 
 footer p {
-  text-align: center;
-  color: #808080;
-  font-weight: 80;
-  margin-bottom: 1em;
-  font-size: 0.75em;
+  text-align: center; /* Centre le texte du paragraphe dans le footer */
+  color: #808080; /* Définit la couleur du texte en gris */
+  font-weight: lighter; /* Définit un faible nieau de gras sur la police */
+  margin-bottom: 1em; /* Ajoute une marge en bas de 1em */
+  font-size: 0.75em; /* Définit la taille de la police à 0.75em */
 }
 
+
 .main-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5em;
+  display: grid; /* Utilise le système de grille CSS */
+  grid-template-columns: repeat(4, 1fr); /* Définit une grille à 4 colonnes égales */
+  grid-gap: 0.5em; /* Définit un espace entre les éléments de la grille */
+}
 
-  }
-
-.img-main-grid{
-  width: 100%;
+.img-main-grid {
+  width: 100%; /* Définit la largeur des images à 100% de leur conteneur */
 }
 
 .yeseva-one-regular {
-    font-family: "Yeseva One", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-/* <uniquifier>: Use a unique and descriptive class name
- <weight>: Use a value from 100 to 900*/
+  font-family: "Yeseva One", serif; /* Utilise la police Yeseva One */
+  font-weight: 400; /* Définit le poids de la police à 400 (normal) */
+  font-style: normal; /* Applique un style de police normal */
+}
 
 .montserrat {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
-  }
+  font-family: "Montserrat", sans-serif; /* Utilise la police Montserrat */
+  font-optical-sizing: auto; /* Active la mise à l’échelle optique automatique */
+  font-weight: 100; /* Définit un faible nieau de gras sur la police */
+  font-style: normal; /* Applique un style de police normal */
+}
+
+.button {
+  text-align: center;
+}
 
 /* Styles pour les tablettes */
 @media (max-width: 768px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
+    display: flex; /* Garde la disposition en flex */
+    justify-content: space-between; /* Espace les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    padding: 1em; /* Réduit le padding à 1em */
   }
 
   main {
-    width: 80%; /* Réduit la largeur principale */
+    width: 80%; /* Réduit la largeur de main à 80% */
   }
 
   main h2 {
-    font-size: 3em; /* Réduit la taille des titres */
+    font-size: 3em; /* Réduit la taille des titres <h2> */
   }
 
   main nav {
-    justify-content: center;
-    gap: 1em;
+    justify-content: center; /* Centre le menu de navigation */
+    gap: 1em; /* Ajoute un espacement de 1em entre les éléments */
   }
 
   .main-grid {
-    grid-template-columns: repeat(5, 1fr); /* Deux colonnes sur tablette */
+    grid-template-columns: repeat(5, 1fr); /* Passe à 5 colonnes pour les tablettes */
   }
 
   main p {
-    margin-right: 0;
-    font-size: 1em;
+    margin-right: 0; /* Supprime la marge à droite */
+    font-size: 1em; /* Réduit la taille de la police */
   }
 
   main nav button {
-    font-size: 0.60em;
+    font-size: 0.60em; /* Réduit la taille de la police des boutons */
   }
 }
 
 /* Styles pour les téléphones */
 @media (max-width: 480px) {
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
+    display: inherit; /* Change le display à "inherit" pour les petits écrans */
+    padding: 5%; /* Ajoute un padding proportionnel (5%) */ 
+    text-align: center;   
   }
 
   header h1 {
-    font-size: 1.2em;
-
+    font-size: 24px; /* Réduit la taille du titre h1 à 24px */
+    align-items: center; /* Centre verticalement les éléments */
   }
 
   main {
-    width: 95%;
-    margin: auto;
+    width: 95%; /* Réduit la largeur de main à 95% */
+    margin: auto; /* Centre main horizontalement */
   }
 
   main h2 {
-    font-size: 2em; /* Réduit la taille des titres sur téléphones */
+    font-size: 2em; /* Réduit la taille des titres <h2> */
   }
 
   main p {
-    width: 100%;
-    margin: 1em 0;
-    font-size: 0.9em;
+    width: 100%; /* Définit la largeur du paragraphe à 100% */
+    margin: 1em 0; /* Ajoute une marge de 1em en haut/bas */
+    font-size: 0.9em; /* Réduit la taille de la police */
   }
 
   .main-grid {
-    grid-template-columns: repeat(3, 1fr); /* Une seule colonne sur téléphones */
+    grid-template-columns: repeat(3, 1fr); /* Passe à 3 colonnes pour les téléphones */
   }
 
-  main nav {
-    display: flex;
-    justify-content: space-around; /* Alignement horizontal */
+  .main-grid img:nth-child(n + 10){ /* limite de neuf image dans la grid +1 avec les boutons */
+    display: none;
   }
+ 
+  main nav {
+    display: flex; /* Assure que les éléments sont alignés sur une ligne */
+    justify-content: center; /* Aligne les éléments du menu au centre */
+    align-items: center; /* Centre verticalement les éléments */
+    font-size: 80%; /* Réduit la taille de la police */
+  }
+
 
   main nav button {
-    width: 30%; /* Chaque bouton prend environ 30% de la largeur pour s'aligner */
-    font-size: 0.60em;
-    padding: 0.8em;
-    margin: 0.5em;
-    text-align: center;
+    width: 40%; /* Chaque bouton prend 30% de la largeur */
+    margin: 0.5em; /* Ajoute une marge externe autour des boutons */
+    text-align: center; /* Centre le texte dans les boutons */
   }
 
   footer p {
-    font-size: 0.6em;
+    font-size: 0.8em; /* Réduit la taille de la police du texte dans le footer */ 
   }
 }

@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
+<!-- Déclaration du type de document comme HTML5 et définition de la langue en français -->
 <head>
     <meta charset="UTF-8">
+    <!-- Définition de l'encodage des caractères en UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Permet à la page de s'adapter aux appareils mobiles -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Lien vers la feuille de style externe située dans le dossier "css" -->
     <title>Fil-Rouge</title>
+    <!-- Titre de la page qui apparaît dans l'onglet du navigateur -->
+
+    <!-- Polices Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importation des polices "Montserrat" et "Yeseva One" depuis Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <!-- Lien vers la bibliothèque Font Awesome pour utiliser des icônes -->
     <script src="https://kit.fontawesome.com/dec5b542ca.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
+        <!-- Titre principal de la page avec une classe pour appliquer la police "Yeseva One" -->
         <h1 class="yeseva-one-regular">SOLÈNE AVRIL<span>.</span></h1>
         <nav>
+            <!-- Ajout d'icônes pour les réseaux sociaux à l'aide de Font Awesome -->
             <span class="fa-brands fa-facebook"></span>
             <span class="fa-brands fa-instagram"></span>
             <span class="fa-brands fa-linkedin"></span>
             <span class="fa-solid fa-circle-half-stroke"></span>
         </nav>
-
     </header>
+
     <main>
+        <!-- Titre de la section principale avec la police "Yeseva One" et un span pour un style différent -->
         <h2 class="yeseva-one-regular">
             Hello,<br />
             Je suis photographe d'art,<br />
             <span>créative & engagée.</span>
         </h2>
 
-        <p class="montserrat">Lorem ipsum dolor sit amet, consectur adipiscing elit. Ut quis augue magna. Fusce fringla purus et spaien
-            euismod ullamcorper. In lorem tellus, sollicitudin in feugiat sed, sodales vel leo.</p>    
-    
-        <nav>
+        <!-- Paragraphe avec la classe "montserrat" pour appliquer la police "Montserrat" -->
+        <p class="montserrat">
+            Lorem ipsum dolor sit amet, consectur adipiscing elit. Ut quis augue magna. Fusce fringla purus et spaien
+            euismod ullamcorper. In lorem tellus, sollicitudin in feugiat sed, sodales vel leo.
+        </p>    
+
+        <!-- Menu de navigation sous forme de boutons pour différentes catégories de photographie -->
+        <nav class="button">
             <button>NATURE</button>
             <button><span>PORTRAIT</span></button>
             <button>ART</button>
@@ -40,7 +58,9 @@
             <button>ANIMAUX</button>
         </nav>
 
-        <div class="main-grid" >
+        <!-- Grille d'images -->
+        <div class="main-grid">
+            <!-- Images générées aléatoirement toutes stylisées avec la classe "img-main-grid" -->
             <img src="https://picsum.photos/201" alt="" class="img-main-grid">
             <img src="https://picsum.photos/202" alt="" class="img-main-grid">
             <img src="https://picsum.photos/203" alt="" class="img-main-grid">
@@ -57,10 +77,11 @@
             <img src="https://picsum.photos/214" alt="" class="img-main-grid">
             <img src="https://picsum.photos/215" alt="" class="img-main-grid">
         </div>
-    
     </main>
+
+    <!-- Pied de page contenant des informations sur le copyright et le contexte de l'exercice -->
     <footer>
-        <p>©2024 SOLÈNE AVRIL</p>
+        <p><br /><br /><br />©2024 SOLÈNE AVRIL</p>
         <p>Exercice HTML - CSS</p>
     </footer>
 </body>
