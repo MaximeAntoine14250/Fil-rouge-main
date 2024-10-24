@@ -70,7 +70,7 @@ main nav button {
 main nav button span {
   background-color: #1bd79e; /* Applique un fond vert clair aux éléments <span> dans les boutons */
   color: #ffffff; /* Définit la couleur du texte à blanc */
-  padding: 0.5em;
+  padding: 0.5em; /* Ajoute du padding /*
 }
 
 footer p {
@@ -106,7 +106,7 @@ footer p {
 }
 
 .button {
-  text-align: center;
+  text-align: center; /* Centre le texte */
 }
 
 /* Styles pour les tablettes */
@@ -177,7 +177,7 @@ footer p {
     grid-template-columns: repeat(3, 1fr); /* Passe à 3 colonnes pour les téléphones */
   }
 
-  .main-grid img:nth-child(n + 10){ /* limite de neuf image dans la grid +1 avec les boutons */
+  .main-grid img:nth-child(n + 10){  /* Affiche un maximum de 9 images dans la grille, les suivantes (et les boutons) sont masquées */
     display: none;
   }
  
