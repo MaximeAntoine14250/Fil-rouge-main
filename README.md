@@ -6,7 +6,7 @@ Il a était realisé avec HTML et CCS. Ce projet présente le travail artistique
 
 ## Lien GitHub
 
-file:///C:/Users/maxim/Downloads/Fil-rouge-man/index.html
+https://github.com/MaximeAntoine14250/Fil-rouge-main
 
 ## Installation
 
